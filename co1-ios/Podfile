@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.4'
+
+target 'Co-1 IOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Co-1 IOS
+
+  target 'Co-1 IOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Co-1 IOSUITests' do
+    # Pods for testing
+  end
+
+end
+
+pod 'Firebase/Analytics'
+pod 'Firebase/Firestore'
